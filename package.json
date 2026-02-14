@@ -1,0 +1,42 @@
+{
+  "name": "@openclaw/skill-scanner",
+  "version": "1.0.0",
+  "description": "Security scanner for OpenClaw skills - detect malicious code before you install",
+  "main": "scanner.js",
+  "bin": {
+    "skill-scanner": "./cli.js"
+  },
+  "scripts": {
+    "test": "node test.js",
+    "scan": "node cli.js"
+  },
+  "keywords": [
+    "openclaw",
+    "security",
+    "scanner",
+    "malware",
+    "skill",
+    "safety",
+    "code-analysis"
+  ],
+  "author": "OpenClaw Community",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/damediacoadmin/skill-scanner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/damediacoadmin/skill-scanner/issues"
+  },
+  "homepage": "https://github.com/damediacoadmin/skill-scanner#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "files": [
+    "scanner.js",
+    "cli.js",
+    "web/",
+    "SKILL.md",
+    "README.md"
+  ]
+}
